@@ -4,7 +4,7 @@ programa {
     inteiro n[8], i, numero /* o numero 8 representa o numero de elementos e nao do ultimo indice */
 
       para(i = 0; i < 8; i++){
-      escreva("Qual o valor do índice: ",i,"?\n")
+      escreva("Qual o valor do Ã­ndice: ",i,"?\n")
       leia(n[i])
       }
 
@@ -14,8 +14,6 @@ programa {
         }
       }
 
-      escreva("O maior valor é: ",maior)
-      escreva("O seu índice é de: ")
-
+      escreva("O maior valor Ã©: ",maior)
   }
 }
