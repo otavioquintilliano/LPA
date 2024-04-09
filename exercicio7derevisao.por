@@ -7,6 +7,6 @@ programa {
 
     m = velocidade / 3.6
 
-    escreva("O valor em ms/s é de: ", m)
+    escreva("O valor em ms/s Ã© de: ", m)
   }
 }
