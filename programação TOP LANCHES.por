@@ -10,11 +10,11 @@ programa {
     escreva("6) X-Calabacon \n")
     escreva("7) X-frangao \n")
     escreva("8) X-churrascao \n")
-    escreva("9) LinguiÁa top \n")
+    escreva("9) Lingui√ßa top \n")
     escreva("10) X-burger \n")
-    escreva("11) PromoÁ„o: Batata + Cheddar + Bacon + Calabresa \n\n")
+    escreva("11) Promo√ß√£o: Batata + Cheddar + Bacon + Calabresa \n\n")
 
-    escreva("Escolha uma opÁ„o: ")
+    escreva("Escolha uma op√ß√£o: ")
     leia(opcao)
 
     limpa()
@@ -31,13 +31,13 @@ programa {
       escreva ("presunto, mussarela, cheddar, bacon, calabresa, tomate, batata palha, maionese, catchup \n" + "R$12,00")
       pare
       caso 4:
-      escreva ("hamburg„o top,mussarela, cheddar, alface, tomate, maionese, catchup, batata palha \n" + "R$12,00")
+      escreva ("hamburg√£o top,mussarela, cheddar, alface, tomate, maionese, catchup, batata palha \n" + "R$12,00")
       pare
       caso 5:
-      escreva ("hamburg„o top, 2 ovos, mussarela, cheddar, tomate, maionese, catchup, batata palha \n" + "R$12,00")
+      escreva ("hamburg√£o top, 2 ovos, mussarela, cheddar, tomate, maionese, catchup, batata palha \n" + "R$12,00")
       pare
       caso 6:
-      escreva ("hamburg„o top, bacon, calabresa, mussalera, cheddar, tomate, maionese, catchup, batata palha \n" + "R$12,00")
+      escreva ("hamburg√£o top, bacon, calabresa, mussalera, cheddar, tomate, maionese, catchup, batata palha \n" + "R$12,00")
       pare
       caso 7:
       escreva ("200g de peito de frango, mussarela, cheddar, tomate, maionese, catchup, batata palha \n" + "R$12,00")
@@ -46,7 +46,7 @@ programa {
       escreva ("200g de carne bovina, mussarela, cheddar, tomate, maionese, catchup, batata palha \n" + "R$12,00")
       pare
       caso 9:
-      escreva ("linguiÁa, mussarela, cheddar, tomate, batata palha, maionese, catchup \n" + "R$12,00")
+      escreva ("lingui√ßa, mussarela, cheddar, tomate, batata palha, maionese, catchup \n" + "R$12,00")
       pare
       caso 10:
       escreva ("hamburger, mussarela, catupiry, batata palha, catchup, e molho \n" + "R$12,00")
@@ -55,14 +55,14 @@ programa {
       escreva ("batata palha, cheddar, bacon, calabresa \n" + "R$7,00")
       pare
       caso contrario: 
-      escreva ("opÁao invalida")
+      escreva ("op√ßao invalida")
     }
     
 
       escreva("\n")
       escreva ("1) pix \n")
-      escreva ("2) cart„o dÈbito \n")
-      escreva ("3) cart„o crÈdito \n")
+      escreva ("2) cart√£o d√©bito \n")
+      escreva ("3) cart√£o cr√©dito \n")
       escreva ("4) dinheiro \n\n")
       escreva ("Qual a forma de pagamento: ")
       leia(pagamento)
@@ -73,10 +73,10 @@ programa {
         escreva ("pagamento via pix")
         pare
         caso 2:
-        escreva ("pagamento via cart„o dÈbito")
+        escreva ("pagamento via cart√£o d√©bito")
         pare
         caso 3:
-        escreva ("pagamento via cart„o crÈdito")
+        escreva ("pagamento via cart√£o cr√©dito")
         pare
         caso 4:
         escreva ("pagamento via dinheiro")
