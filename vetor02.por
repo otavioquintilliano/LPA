@@ -16,7 +16,7 @@ programa {
     soma = soma + n[i]
   }
 
-  escreva("A soma dos números é de: ", soma)
+  escreva("A soma dos nÃºmeros Ã© de: ", soma)
   
   }
 }
