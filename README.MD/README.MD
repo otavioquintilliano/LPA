@@ -9,14 +9,47 @@ São dados nomeados com um valor predefinido, ou seja é um valor fixo que não 
 
 Operadores
 São símbolos que dizem ao compilador para realizar operações matemáticas e lógicas. Eles são divididos em várias categorias: Aritméticos Relacionais Atribuição Lógicos Bitwise (Bit-a-Bit) Incremento / Decremento Concatenação Condicional
+EX:
+=	x = 5	x = 5	
++=	x += 3	x = x + 3	
+-=	x -= 3	x = x - 3	
+*=	x *= 3	x = x * 3	
+/=	x /= 3	x = x / 3	
+%=	x %= 3	x = x % 3	
+&=	x &= 3	x = x & 3	
+|=	x |= 3	x = x | 3	
+^=	x ^= 3	x = x ^ 3	
+>>=	x >>= 3	x = x >> 3	
+<<=	x <<= 3	x = x << 3
 
 Operadores ecncadeados, é quando uma estrutura de decisão está localizada dentro do lado falso da outra.
 
 Laços de Repetição
 São os loops, é utilizados para executar, repetidamente, uma instrução ou bloco de instrução enquanto determinada condição estiver sendo satisfeita. O comando for permite que uma variável contadora seja testada e incrementada a cada iteração, sendo essas informações definidas na chamada do comando O laço while determina que enquanto uma determinada condição for válida, o bloco de código será executado EX: for while
+public class Main {
+  public static void main(String[] args) {
+    int i = 0;
+    do {
+      System.out.println(i);
+      i++;
+    }
+    while (i < 5);  
+  }
+}
 
 Vetores
 Os vetores são os que permitem o armazenamento de valores do mesmo tipo. Ele também é uma sequência de Variáveis de mesmo tipo e referenciadas por um nome único.
 
 Matrizes
 São várias Variáveis do mesmo tipo, também é conhecido como vetor dos vetores. A matriz consegue amarzenar várias Variáveis em unico nome só e armazenados contiguamente na memória.
+public class Main {
+  public static void main(String[] args) {
+    int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+    for (int[] row : myNumbers) {
+      for (int i : row) {
+        System.out.println(i);
+      }
+    }
+  }
+}
+
